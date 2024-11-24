@@ -7,11 +7,11 @@ import mysql.connector
 # Σύνδεση στη βάση δεδομένων
 def create_connection():
     connection = mysql.connector.connect(
-        host="database-nova.c7a6a2808nfy.us-west-2.rds.amazonaws.com",
+        host="us-west-2.rds.amazonaws.com",
         port=3306,
-        user="admin",
-        password="digitalsnova",
-        database="nova"
+        user="xxxx",
+        password="xxxx",
+        database="xxxx"
     )
     return connection
 
